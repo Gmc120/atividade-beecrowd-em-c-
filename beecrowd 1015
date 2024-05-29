@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    double x1, x2, y1, y2, SOMA, DISTANCIA;
+    
+    scanf("%lf %lf", &x1, &y1);
+    scanf("%lf %lf", &x2, &y2);
+    SOMA = ((x2-x1)*(x2-x1))+((y2-y1)*(y2-y1));
+    DISTANCIA = sqrt(SOMA);
+    
+    printf("%.4lf\n", DISTANCIA);
+ 
+    return 0;
+}
