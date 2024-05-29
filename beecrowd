@@ -1,0 +1,15 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int DISTANCIA, TEMPO;
+
+    scanf("%d",&DISTANCIA);
+
+    TEMPO = (60 * DISTANCIA)/ 30;
+
+    printf("%i minutos\n",TEMPO);
+
+ 
+    return 0;
+}
