@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int km;
+    double L, kmL;
+    
+    scanf("%d %lf", &km, &L);
+    kmL = km/L;
+    
+    printf("%.3lf km/l\n", kmL);
+ 
+    return 0;
+}
