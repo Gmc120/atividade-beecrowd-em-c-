@@ -1,0 +1,17 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int HRS, MIN, SEG;
+    
+    scanf("%d", &SEG);
+    HRS = SEG / 3600;
+    SEG = SEG % 3600;
+    MIN = SEG / 60;
+    SEG = SEG % 60;
+   
+    printf("%d:%d:%d\n", HRS, MIN, SEG);
+    
+    
+    return 0;
+}
