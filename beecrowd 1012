@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main (){
+	
+	double A, B, C;
+	
+	scanf("%lf %lf %lf",&A,&B,&C);
+	double TRINGULO, CIRCULO, TRAPEZIO, QUADRADO,RETANGULO;
+	QUADRADO = B*B;
+	RETANGULO = A*B;
+	TRINGULO = (A*C)/2;
+	TRAPEZIO = ((A+B)*C)/2;
+	CIRCULO = 3.14159*(C*C);
+	
+	printf("QUADRADO: %.3lf\n",QUADRADO);
+	printf("RETANGULO: %.3lf\n",RETANGULO);
+	printf("TRINGULO: %.3lf\n",TRINGULO);
+	printf("TRAPEZIO: %.3lf\n",TRAPEZIO);
+	printf("CIRCULO: %.3lf\n",CIRCULO);
+	
+	return 0;
+}
